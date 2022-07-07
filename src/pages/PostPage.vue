@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div>
         <h1>Страница с постами</h1>
         <my-input
             v-model="searchQuery"
@@ -51,12 +51,11 @@
 import PostForm from '@/components/PostForm.vue';
 import PostList from '@/components/PostList.vue';
 import axios from 'axios';
-import MySelect from './components/UI/MySelect.vue';
+
 export default {
     components: {
     PostList,
     PostForm,
-    MySelect
 },
     data() {
         return {
